@@ -12,8 +12,6 @@
 
 ## Setup
 
-The QR Scanner consists of two files.
-
 `qr-scanner.min.js` is the main API as an es6 module and can be imported as follows:
 ```js
 import QrScanner from 'path/to/qr-scanner.min.js'; // if using plain es6 import
