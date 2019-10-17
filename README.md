@@ -29,16 +29,15 @@ This requires the importing script to also be an es6 module or a module script t
 
 ## Usage
 
-```js
-    
-    this.video = document.getElementById('qr-video') as HTMLVideoElement;
-    this.scanner = new QrScanner(this.video, result => 
-        this.onDecode(result, this)
-    );
-    this.scanner.start();
+```js   
+this.video = document.getElementById('qr-video') as HTMLVideoElement;
+this.scanner = new QrScanner(this.video, result => 
+    this.onDecode(result, this)
+);
+this.scanner.start();
 
-    this.scanner.stop();
-    this.scanner.destroy();
+this.scanner.stop();
+this.scanner.destroy();
 ```
 
 ### Web Cam Scanning
