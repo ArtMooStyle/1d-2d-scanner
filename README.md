@@ -29,8 +29,7 @@ This requires the importing script to also be an es6 module or a module script t
 
 ## Usage
 
-``html
-    import { QrScanner } from "QRScannerModule";
+```js
     
     this.video = document.getElementById('qr-video') as HTMLVideoElement;
     this.scanner = new QrScanner(this.video, result => 
