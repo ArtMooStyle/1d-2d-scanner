@@ -49,7 +49,7 @@
   },
   "dependencies": {
     "@zxing/library": "^0.15.2",
-    "acorn": "^7.1.0",
+    "acorn": "^7.1.1",
     "acorn-dynamic-import": "^4.0.0",
     "javascript-barcode-reader": "^0.5.4",
     "quagga": "^0.12.1"
